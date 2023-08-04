@@ -1,5 +1,4 @@
-# Network Security challenge
-## My complete solution for the TryHackMe NetSect module challenge, enjoy :pager:
+# Complete walkthrough for the TryHackMe NetSect module challenge :pager:
 
 
 ## What is the highest port number being open less than 10,000?
