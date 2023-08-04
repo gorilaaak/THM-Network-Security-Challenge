@@ -26,11 +26,11 @@ Counting all TCP’s from previous question will bring us to the right answer.
 
 ## What is the flag hidden in the HTTP server header?
 
-First we need to determine the HTTP service version by utilizing **-sV** option - to be as closest as possible ive used the **—version-intensity 9**. 
+First we need to determine the HTTP service version by utilizing **-sV** option - to be as closest as possible ive used the **—version-intensity 9** - we can also narrow the scan to avoid cryptic-output to the specific port with **-p** option. 
 
 ![Alt text](<Untitled 2.png>)
 
-### **Since we know the version we have two options:**
+### **Ok version acquired, now we have two options:**
 
 **1.We can utilize the nmap scripting engine to run the specified header grabber for HTTP:**
 
