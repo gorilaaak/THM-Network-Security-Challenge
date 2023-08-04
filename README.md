@@ -52,7 +52,7 @@ We can easily utilize **telnet** to grab the banner in this case.
 
 ## We have an FTP server listening on a nonstandard port. What is the version of the FTP server?
 
-Since the question is pointing us to the non-standard port lets examine the one which is beyond-standard, we will use the **-sV** option and narrow the scan only to the specific port.
+Since the question is pointing us to the non-standard port lets examine the one which is beyond-standard, we will use the **-sV** option and narrow the scan only to the specific port with option **-p**.
 
 ![Alt text](<Untitled 6.png>)
 
@@ -66,7 +66,7 @@ As the question suggest’s we should obtain password’s to both accounts but f
 
 Yup, both account’s require password.
 
-We can utilize Hydra in attempt to brute-force both password’s using wordlist f.e rockyou.txt -note that FTP is running on non-standard port 10021 so we need to specify it with **-s 10021** - by default Hydra is looking to enumerate FTP target on **port 21**.
+We can utilize **Hydra** in attempt to brute-force both password’s using wordlist f.e **rockyou.txt** -note that FTP is running on non-standard port 10021 so we need to specify it with **-s 10021** - by default Hydra is looking to enumerate FTP target on **port 21**.
 
 ![Alt text](<Untitled 8.png>)
 
@@ -90,7 +90,7 @@ Lets navigate to the page first and see what is this all about.
 
 ![Alt text](<Untitled 12.png>)
 
-Clearly the page is suggesting to perform and “stealth scan” to avoid FW and IDS. Lets fire up the most used **-sS** aka stealth scan and see the score:
+Clearly the page is suggesting to perform and **“stealth scan”** to avoid FW and IDS. Lets fire up the most used **-sS** aka stealth scan and see the score:
 
 ![Alt text](<Untitled 13.png>)
 
