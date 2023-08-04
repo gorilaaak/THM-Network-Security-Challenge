@@ -1,5 +1,5 @@
 # Walkthrough for the TryHackMe NetSec module challenge
-[Click here to navigate to the module](https://tryhackme.com/module/network-security)
+**[Click here to navigate to the module](https://tryhackme.com/module/network-security)**
 
 
 ## What is the highest port number being open less than 10,000?
