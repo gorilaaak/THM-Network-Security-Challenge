@@ -32,13 +32,18 @@ First we need to determine the HTTP service version by utilizing **-sV** option 
 
 ![Alt text](<Untitled 2.png>)
 
-### **Ok version acquired, now we have two options:**
+### **Ok version acquired, now we have three options:**
 
-**1.We can utilize the nmap scripting engine to run the specified header grabber for HTTP:**
+**1.Uee CLI way and obtain the flag by hand using telnet and curl :**
+
+![Alt text](<Untitled 17.png>)
+
+
+**2.Utilize nmap scripting engine to run the specified header grabber for HTTP:**
 
 ![Alt text](<Untitled 3.png>)
 
-**2.We will use web-browser to inspect network section of the page**
+**3.Or use web-browser to inspect network section of the page**
 
 ![Alt text](<Untitled 4.png>)
 
