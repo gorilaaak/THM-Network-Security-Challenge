@@ -34,7 +34,7 @@ First we need to determine the HTTP service version by utilizing **-sV** option 
 
 ### **Ok version acquired, now we have three options:**
 
-**1.Uee CLI way and obtain the flag by hand using telnet and curl :**
+**1.Use CLI way and obtain the flag by hand:**
 
 ![Alt text](<Untitled 17.png>)
 
