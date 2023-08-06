@@ -116,5 +116,4 @@ As the documentation suggests:
 **Answer: THM{f7443f99}**
 
 
-Thanks for the audience
-@extr0
+Hope u liked the challenge 
