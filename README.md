@@ -114,3 +114,7 @@ As the documentation suggests:
 **Null scan does not send any flag at all, it is an un-usuall packet for the FW and IDS and it can potentionally bypass the security measurements (promises, promises).** 
 
 **Answer: THM{f7443f99}**
+
+
+Thanks for the audience
+@extr0
