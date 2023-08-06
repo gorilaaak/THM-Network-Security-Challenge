@@ -32,7 +32,7 @@ First we need to determine the HTTP service version by utilizing **-sV** option 
 
 ![Alt text](<Untitled 2.png>)
 
-### **Ok version acquired, now we have three options:**
+### **Ok version acquired, now we have few options:**
 
 **1.Use CLI way and obtain the flag by hand:**
 
